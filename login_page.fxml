@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #bf1f13;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login_screen.login_screen_controller">
+   <children>
+      <Text fill="WHITE" layoutX="165.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ziraat Bankası" textAlignment="CENTER" wrappingWidth="269.8734130859375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="username" layoutX="60.0" layoutY="115.0" prefHeight="26.0" prefWidth="480.0" promptText="Kullanıcı Adı/Kart No" />
+      <PasswordField fx:id="passwd" layoutX="60.0" layoutY="187.0" prefHeight="26.0" prefWidth="480.0" promptText="Şifre" />
+      <Button fx:id="bttn" layoutX="60.0" layoutY="249.0" mnemonicParsing="false" onAction="#handleButtonAction" onMouseClicked="#handleButtonAction" prefHeight="35.0" prefWidth="480.0" style="-fx-background-color: red; -fx-background-radius: 20;" text="Devam" textFill="WHITE" />
+      <Label fx:id="lblErrors" layoutX="60.0" layoutY="299.0" prefHeight="18.0" prefWidth="480.0" />
+   </children>
+</AnchorPane>
