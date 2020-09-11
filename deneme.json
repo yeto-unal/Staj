@@ -1,0 +1,24 @@
+{"intents": [
+    {"tag": "selam",
+     "patterns": ["Merhaba", "Nasilsin", "Yardimci olabilir misin?", "Hey", "Iyi gunler"],
+     "responses": ["Merhaba, nasil yardimci olabilirim?", "Sizi tekrar gormek guzel", "Iyi gunler, nasil yardim edebilirim?", "Selam"],
+     "context_set": ""
+    },
+    {"tag": "gorusuruz",
+     "patterns": ["Gorusuruz", "Iyi gunler", "Hosca kalin"],
+     "responses": ["Yakin zamanda gorusmek dilegiyle", "Iyi gunler dileriz", "Yine bekleriz"]
+    },
+    {"tag": "tesekkurler",
+     "patterns": ["Tesekkurler", "Tesekkur ederim"],
+     "responses": ["Yardimci olabildigime sevindim", "Her zaman", "Rica ederiz"]
+    },
+    {"tag": "bakiye",
+     "patterns": ["Bakiyemi goster", "Bakiyem", "Bakiye","Hesap bakiyem" ],
+     "responses": ["Kalan tutariniz ...", "Bakiyeniz = ...", "Hesabinizda ... bulunmakta","... TL"]
+    },
+    {"tag": "opentoday",
+     "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+     "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+    }
+]
+}
