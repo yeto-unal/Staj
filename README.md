@@ -10,5 +10,7 @@ nltk,
 requests,
 tkinter,
 mysql.connector,
+python-telegram-bot,
+subprocess
 
 Kütüphaneleri yazdığım kodlarda kullanılmıştır.
